@@ -1,0 +1,11 @@
+:root {
+    --font-size-initial: 12px;
+    --font-size-initial-lv2: 14px;
+    --font-size-initial-lv3: 16px;
+    --font-size-initial-lv4: 18px;
+
+    --spacing-site: 2em;
+
+    --color-text-main: #000;
+    --color-text-header: rgb(72, 191, 22);
+}

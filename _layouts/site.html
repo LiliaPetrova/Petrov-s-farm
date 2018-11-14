@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+
+</head>
+
+<body>
+    <div class="site">
+        <header class="site-header">
+            <h1 class="site-title">{{ site.title }}</h1>
+
+
+            <div class="site-menu">
+                <div class="menu">
+                    <div class="menu-phone">
+                        <p><i class="fas fa-bars"></i>Menu</p>
+                    </div>
+
+                    <div class="menu-phone-focus">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+
+
+                <nav class="site-navigation">
+                    <ul>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/product/">Products</a></li>
+                        <li><a href="/contact/">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            {{content}}
+        </main>
+
+        <footer class="site-footer">
+
+        </footer>
+    </div>
+</body>
+
+</html>
