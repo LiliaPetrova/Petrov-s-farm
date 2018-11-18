@@ -1,7 +1,6 @@
 @media screen and (min-width:800px){
     .site-header {
         text-align: center;
-        box-shadow: 0.5rem 1rem 4rem 0rem rgba(72, 191, 22,0.5);
     }
     .site-header div {
         display: inline-block;
@@ -29,11 +28,12 @@
     }
 }
 .site-header {
+    border-top: 2px solid var(--color-text-header, rgb(75, 214, 31));
     background: url("../picture-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    box-shadow: 0.5rem 1rem 4rem 0rem rgba(72, 191, 22,0.5);
 }
 .site-title {
     font-family: 'Times New Roman', Times, serif;
@@ -44,6 +44,9 @@
     color: var(--color-text-header, rgb(75, 214, 31));
 }
 
+#main-nav-toggle{
+    display: none;
+}
 
 .site-header .menu {
     margin-top: 3em;

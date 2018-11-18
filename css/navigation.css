@@ -49,9 +49,9 @@
     list-style: none outside;
     margin: 0.5em;
     padding: 0.5rem 2rem;
-    background: white;
-    border: none;
+    border: 1px solid var(--color-text-header, rgb(75, 214, 31));
     border-radius: 2rem;
+    background: url("/picture-2.jpg");
 }
 
 .site-navigation li a {

@@ -15,20 +15,18 @@
 
 <body>
     <div class="site">
-            <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" />
+        <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" />
         <header class="site-header">
             <h1 class="site-title">{{ site.title }}</h1>
 
 
             <div class="site-menu">
                 <div class="menu">
-                <label for="main-nav-toggle" id="toggle">
-                    <!--<button class="menu-phone"><i class="fas fa-bars"></i>Menu</button>
-                     <button class="menu-phone-focus"><i class="fas fa-times"></i></button>-->
-                    <i class="fas fa-bars"></i> 
-                    <i class="fas fa-times"></i> 
-                    <span>Menu</span>
-                </label>    
+                    <label for="main-nav-toggle" id="toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                        <span>Menu</span>
+                    </label>
                 </div>
 
 
@@ -48,6 +46,32 @@
         </main>
 
         <footer class="site-footer">
+            <div class="footer-title">
+                <h4>{{ site.title }}</h4>
+                <p>The best food for your table!</p>
+
+            </div>
+            <div class="footer-nav-toggle">
+                <label for="footer-toggle" id="phone-toggle">
+                    <span>
+                        <i class="fas fa-mobile-alt"></i>
+                        <a href="/">0885/23-71-52</a>
+                    </span>
+                    <span>
+                        <i class="fas fa-mobile-alt"></i>
+                        <a href="/">0887/37-71-94</a>
+                    </span>
+                </label>
+                <label for="footer-toggle" id="email-toggle">
+                    <i class="fas fa-envelope"></i>
+                    <a href="/">lilipetrova75@abv.bg</a>
+                </label>
+                <label for="public-navigation" id="public-navigation">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                </label>
+            </div>
 
         </footer>
     </div>

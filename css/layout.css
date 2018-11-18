@@ -1,12 +1,13 @@
+html {
+    background: url("/picture-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 body {
-    /*--color-text-main: red;*/
     color: var(--color-text-main, #000);
 }
 
 .site {
     padding: var(--spacing-site, 2em);
 }
-
-/*body p:first-child {
-    color: blue;
-}*/
