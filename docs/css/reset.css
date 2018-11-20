@@ -1,0 +1,14 @@
+/*
+*Witespace Reset*/
+* {
+    margin: 0;
+    padding: 0; 
+}
+/*
+*Box-sizing fix*/
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}

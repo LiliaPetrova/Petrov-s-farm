@@ -2,6 +2,7 @@
 layout: site
 title:  "First Post for Testing!"
 date:   2018-11-12 22:30:34 +0200
+baseurl: "/Petrov-s-farm"
 #categories: jekyll update
 ---
 Lorem ipsum dolor sit amet,constetution gsjgjjno mweigbn mdfkkg
