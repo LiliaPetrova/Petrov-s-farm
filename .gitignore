@@ -1,4 +1,6 @@
-_site
 .sass-cache
 .jekyll-metadata
-.package-lock.json
+.vscode
+Gemfile.lock
+#package-lock.json
+node_modules

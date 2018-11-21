@@ -1,33 +1,28 @@
-#layout: site
+# Site settings
 title: Petrov's farm
-email: lilipetrova75@abv.bg
 description: The best food for your table!
+
+email: lilipetrova75@abv.bg
 baseurl: "/Petrov-s-farm" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-destination: "docs"
-#twitter_username: jekyllrb
+
+twitter_username: LiliaPetrova
 github_username:  LiliaPetrova
 
 # Build settings
+future: true
 markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
- exclude:
-   - Gemfile
-   - Gemfile.lock
-   - node_modules
-   - .gitignore
-   - scss
-   - gulpfile.js
-   - package.json
-   - package-lock.json
-   - .vscode
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+destination: docs
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - docs
+  - scss
+  - gulpfile.js
+  - package.json

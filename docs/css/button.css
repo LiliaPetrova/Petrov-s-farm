@@ -1,9 +1,0 @@
-button {
-    padding: 0.5em 1em;
-    margin-bottom: 1em;
-    border-radius: 1em;
-    background: white;
-    font-size: 1.3rem;
-    border: none;
-    color: var(--color-text-header, rgb(75, 214, 31));
-}
