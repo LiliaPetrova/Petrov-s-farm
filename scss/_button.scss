@@ -4,6 +4,15 @@ button {
     border-radius: 1em;
     background: white;
     font-size: 1.3rem;
-    border: none;
+    /*background: url("../picture-2.jpg");
+    background-size: cover;*/
+    border: 1px solid var(--color-text-header, rgb(75, 214, 31));
     color: var(--color-text-header, rgb(75, 214, 31));
+}
+button:hover,
+button:focus {
+    background: var(--background-lv1, url("../picture-3.jpg"));
+    background-size: cover;
+    border: 2px solid var(--color-text-hoover, rgb(44, 76, 48));
+    color: var(--color-text-hoover, rgb(44, 76, 48));
 }

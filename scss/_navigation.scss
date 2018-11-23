@@ -50,7 +50,7 @@
     margin: 0.5em;
     border: 1px solid var(--color-text-header, rgb(75, 214, 31));
     border-radius: 2rem;
-    background: url("../picture-2.jpg");
+    background: var(--background-lv2, url("../picture-2.jpg"));
     background-size: cover;
 }
 
@@ -63,7 +63,7 @@
 
 .site-navigation li:hover,
 .site-navigation li:focus {
-    background: url("../picture-3.jpg");
+    background: var(--background-lv1, url("../picture-3.jpg"));
     background-size: cover;
     border: 2px solid var(--color-text-hoover, rgb(44, 76, 48));
 }
