@@ -2,17 +2,19 @@ button {
     padding: 0.5em 1em;
     margin-bottom: 1em;
     border-radius: 1em;
-    background: white;
     font-size: 1.3rem;
-    /*background: url("../picture-2.jpg");
-    background-size: cover;*/
-    border: 1px solid var(--color-text-header, rgb(75, 214, 31));
-    color: var(--color-text-header, rgb(75, 214, 31));
-}
-button:hover,
-button:focus {
-    background: var(--background-lv1, url("../picture-3.jpg"));
+    font-weight: 700;
+    background: var(--background-lv2, url("../picture-2.jpg"));
     background-size: cover;
-    border: 2px solid var(--color-text-hoover, rgb(44, 76, 48));
-    color: var(--color-text-hoover, rgb(44, 76, 48));
+    border: 2px solid var(--color-text-header, rgb(75, 214, 31));
+    color: var(--color-text-header, rgb(75, 214, 31));
+
+    &:hover,
+    &:focus {
+        background: var(--background-lv1, url("../picture-3.jpg"));
+        background-size: cover;
+        border: 2px solid var(--color-text-hoover, rgb(44, 76, 48));
+        color: var(--color-text-hoover, rgb(44, 76, 48));
+    }
+
 }

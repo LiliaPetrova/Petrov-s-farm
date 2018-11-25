@@ -1,0 +1,41 @@
+.contact {
+	display: block;
+    margin: 1rem;
+
+	& .contact-icon {
+		display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        font-size: 1.5em;
+        color: var(--color-text-hoover, rgb(44, 76, 48));
+
+        & label {
+            padding: 1rem;
+            animation: slidenXY 1s 1 both;
+
+            & i {
+                font-size: 2rem;
+            }
+
+            & a {
+                color: var(--color-text-hoover, rgb(44, 76, 48));
+
+                &:hover {
+                    color: var(--color-text-header, rgb(75, 214, 31));
+                }
+
+            }
+
+        }
+
+    }
+    
+}
+
+@for $i from 1 to 5 {
+
+    .contact-icon label:nth-child(#{$i}){
+        animation-delay: $i*0.20s;
+    }
+
+}

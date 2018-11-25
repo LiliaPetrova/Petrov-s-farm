@@ -1,12 +1,16 @@
 @import '../fontawesome/fontawesome/css/all.css';
 
 @import 'variables';
+@import 'animation';
 @import 'reset';
 @import 'typography';
+@import 'button';
 
 @import 'layout';
+@import 'form';
 @import 'navigation';
 @import 'site-header';
 @import 'site-footer';
-@import 'button';
-@import 'form';
+@import 'contact';
+
+
