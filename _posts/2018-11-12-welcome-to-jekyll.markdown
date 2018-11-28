@@ -3,6 +3,7 @@ layout: site
 title:  "Our commitments!"
 date:   2018-11-12 22:30:34 +0200
 baseurl: "/Petrov-s-farm"
+permalink: /post/
 #categories: jekyll update
 ---
 <div class="post">
