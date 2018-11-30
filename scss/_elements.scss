@@ -50,11 +50,10 @@
         grid-template-columns: repeat(2,1fr);
         gap: 1rem;
         font-weight: bold;
-        
+        justify-content: space-between;
         
         div {
             padding: 1rem;
-            
             font-style: italic;
             grid-column: 1/ span 2;
             display: flex;
@@ -63,28 +62,14 @@
             text-align: center;
         }
         
-        article {
-            p { 
-                padding-bottom: 0;
-                grid-area: idea; 
-            }
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-rows: repeat(1,1rem);
-            grid-template-areas:
-                "title idea"
-                "picture idea";
-            grid-row-gap: 2em;
-        }
-     
+        
         h4 {
-            text-align: center;
             font-size: 1.6em;
-            grid-area: title;
+            padding-top: 5rem;
+            width: 40%;
+            text-align: center;
         }
-        img {
-            grid-area: picture;
-        }
+        
     }
 
 }
@@ -191,25 +176,27 @@ h2 {
     }
     
     article {
-        
-        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: var(--spacing-site, 2em);
         p { 
-            padding-bottom: 1rem;
+            text-align: left;
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 0.2rem;
         }
  
         h4 {
-            text-align: center;
             font-size: 1.6em;
             padding-bottom: 1rem;
         }
 
         img {
-            text-align: center;
             border: 1px solid var(--color-text-header, rgb(75, 214, 31));
             border-radius: 2rem;
-            width: 80%;
-            height: 80%;
-            margin: 0 auto;
+            width: 12rem;
+            height: 12rem;
         }
 
     }
