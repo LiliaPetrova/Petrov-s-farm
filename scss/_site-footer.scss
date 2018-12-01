@@ -34,7 +34,7 @@
     box-shadow: 0.5rem -0.5rem 2.5rem 0.5rem rgba(72, 191, 22, 0.5);
     color: var(--color-text-header, rgb(72, 191, 22));
 
-    div {
+    &>div {
         padding: 1rem;
     }
 
@@ -76,12 +76,12 @@
 
 }
   
-.site-footer a {
-
+.site-footer label div {
     &:hover, 
-    &:focus {
+    &:focus,
+    & a:hover, 
+    & a:focus {
         color: black;
-        text-decoration: underline;
     }
 
 }

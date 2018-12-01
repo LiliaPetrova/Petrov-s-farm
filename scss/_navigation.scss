@@ -75,21 +75,18 @@
             color: var(--color-text-header, rgb(75, 214, 31));
             text-decoration: none;
             padding: 2rem;
-            font-weight: bold;
+            font-weight: bold; 
+            
+            &:hover, &:focus {
+                border: none;
+            
+            }           
         }
 
         &:hover, &:focus {
             background: var(--background-lv1, url("../picture-3.jpg"));
             background-size: cover;
             
-        }
-
-        a {
-            
-            &:hover, &:focus {
-                color: var(--color-text-header, rgb(75, 214, 31));
-            }
-
         }
 
     }

@@ -29,11 +29,10 @@ $fontSize: var(--font-size-initial,12px);
 	& fieldset {
 		animation: sliden 1s 1 both;
 
-		& .registration a:nth-child(2) {
-			padding-left: 1rem;
-		}
+		
 
 	}
+	 
 
 	&-registration fieldset {
 		animation: slidenX 1s 1 both;
@@ -75,7 +74,9 @@ fieldset {
 
 }
 
-
+.registration a:nth-child(2) {
+	padding-left: 1rem;
+}
 .registration { 
 	margin: 0;
 	padding-top: 0;

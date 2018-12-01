@@ -1,6 +1,6 @@
 ---
 layout: site
-title:  "Galery!"
+title:  "Gallery!"
 date:   2018-12-01 13:05:33 +0200
 baseurl: "/Petrov-s-farm"
 permalink: /galery/

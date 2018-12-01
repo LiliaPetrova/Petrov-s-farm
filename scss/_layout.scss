@@ -1,7 +1,6 @@
 html {
-    background: var(--background-lv1, url("../picture-3.jpg"));
-    background-size: cover;
-    background-repeat: no-repeat;
+    
+    background: #EEF1F1;
 }
 
 body {
@@ -9,6 +8,5 @@ body {
 }
 
 .site {
-    background: rgba(255, 255, 255, 0.45);
     padding: var(--spacing-site, 2em);
 }
